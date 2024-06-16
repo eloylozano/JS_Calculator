@@ -47,7 +47,7 @@ main {
 
 .button {
     background-color: white;
-    width: 100px;
+    width: 75px;
     height: 75px;
     border-radius: 15px;
     box-shadow: inset -10px -10px 20px -21px rgba(0, 0, 0, 0.75);
@@ -62,27 +62,25 @@ main {
 }
 
 .button:hover {
-    background-color: white;
     box-shadow: inset 0px 0px 9px 7px rgba(0, 0, 0, 0.27);
-
 }
 
 #dividir,
 #multiplicar,
 #restar,
-#suma {
+#suma,
+#porcentaje,
+#borrar {
     background-color: #8f8f8f;
     transition: background-color 0.3s ease;
 }
 
-#dividir:hover,
-#multiplicar:hover,
-#restar:hover,
-#suma:hover {
-    box-shadow: inset 0px 0px 9px 7px rgba(0, 0, 0, 0.27);
+#borrar{
+    font-size: 2.5em;
 }
 
 #equals {
     background-color: #ff7b00;
+    width: 165px;
     transition: background-color 0.3s ease;
 }
